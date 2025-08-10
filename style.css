@@ -1,5 +1,20 @@
 *{
-  margin: 0;
-  padding:0;
-  font-family: sans-serif
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.sidebar {
+background-color: rgb(193, 193, 212);
+width:30%;
+padding:20px;
+display: flex;
+flex-direction: column;
+}
+
+.contact-list {
+display: flex;
+
+
+
 }
