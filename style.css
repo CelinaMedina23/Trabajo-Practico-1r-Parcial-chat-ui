@@ -2,20 +2,36 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+display: flex;
+flex-direction: row;
+height: 100vh;
+width: 100%;
+
+}
+
 
 /* zona izquierda del chat */ 
 
+
 .sidebar {
-background-color: rgb(135, 135, 203);
-width: 20%;
-padding: 10px;
+background-color: hsl(0, 100%, 99%);
+width: 100%;
+padding: 30px;
 display: flex;
 flex-direction: column;
+border-right: 1px solid #ccc ;
 }
 
 .search {
   width:100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
 .contact-list {
@@ -110,15 +126,12 @@ border-radius: 10px;
   height: 100vh;
 }
 
-.chat {
-    flex: 1;
-    display: flex;
-    flex-direction: column; 
-    background-color: #fff;
-}
-
 .sent {
   align-self: flex-end;
-  background-color: #ddf1cd;
+  background-color: #c9eef9;
 }
 
+.received {
+  align-self:self-start ;
+  background-color: rgb(192, 192, 192);
+}
