@@ -9,7 +9,6 @@ display: flex;
 flex-direction: row;
 height: 100vh;
 width: 100%;
-
 }
 
 main {
@@ -18,7 +17,6 @@ main {
 
 
 /* zona izquierda del chat */ 
-
 
 .sidebar {
 background-color: hsl(0, 100%, 99%);
@@ -40,7 +38,6 @@ border-right: 1px solid #ccc ;
   align-items: center;
   gap:15px;
   padding:10px 0px ;
-  border-radius:12px;
 }
 
 .foto-perfil {
