@@ -95,7 +95,11 @@ border-radius: 10px;
   gap: 1;
   padding: 1;
   border-top: 1px;
-  background-color: rgb(225, 217, 210);
+  background-color: rgb(232, 224, 217);
 }
 
 
+.chat-footer input {
+  flex: 1;
+  padding: 8px;
+}
